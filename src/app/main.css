@@ -1,0 +1,74 @@
+.main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.main .right{
+    display: flex;
+    flex-direction: column-reverse;
+    width: 70%;
+    height: 100%;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    padding-left: 10px;
+}
+.main .right .inputBox{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100px;
+    background-color: rgb(25, 25, 25);
+    border-radius: 10px;
+    align-items: center;
+}
+.main .right .inputBox button{
+    width: 150px;
+    border-radius: 10px;
+    background-color: rgb(20, 20, 20);
+    color: white;
+    border: 1px solid white;
+    height: 90%;
+    margin-right: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main .right .inputBox textarea{
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding: 20px;
+    color: white;
+    font-size: 1em;
+    resize: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.main .images{
+    overflow-y: scroll;
+    width: 100%;
+    height: 100%;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+}
+
+.main .images img{
+    max-width: 200px;
+    flex-grow: 1;
+    object-fit: contain;
+    margin: 10px 5px;
+    border-radius: 5px;
+}
+
+.main .options{
+    height: 100%;
+    width: 30%;
+    background-color: rgb(255, 159, 159);
+}
